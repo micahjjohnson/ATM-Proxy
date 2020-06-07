@@ -1,11 +1,12 @@
-import Layout from '../components/MyLayout';
+import React from "react";
+import Body from "../components/body/Body";
 
 export default function About() {
     return (
-        <div>
-            <Layout>
+        <Body>
+            <div>
                 <p>This is the about page</p>
-            </Layout>
-        </div>
+            </div>
+        </Body>
     );
 }
